@@ -20,7 +20,7 @@ Features 4 oscillators, a Moog-style ladder filter, and dual ADSR envelopes.
 
 ## Prerequisites
 
-- [Move Everything](https://github.com/charlesvestal/move-anything) installed on your Ableton Move
+- [Move Everything](https://github.com/charlesvestal/move-everything) installed on your Ableton Move
 - SSH access enabled: http://move.local/development/ssh
 
 ## Install
@@ -37,7 +37,7 @@ Features 4 oscillators, a Moog-style ladder filter, and dual ADSR envelopes.
 Requires Docker (recommended) or ARM64 cross-compiler.
 
 ```bash
-git clone https://github.com/charlesvestal/move-anything-moog
+git clone https://github.com/charlesvestal/move-everything-moog
 cd move-anything-moog
 ./scripts/build.sh
 ./scripts/install.sh
